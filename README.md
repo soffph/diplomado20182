@@ -1,3 +1,3 @@
 # diplomado20182
 
-ejercicios 
+Ejercicios y actividades diplomado UNAM iOSLab
