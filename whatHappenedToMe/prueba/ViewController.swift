@@ -10,8 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
-     weak var outtletText: UITextField!
     @IBOutlet weak var aoutletButton: UIButton!
+    @IBOutlet weak var outletText: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,9 +20,10 @@ class ViewController: UIViewController {
         
     }
 
-    func actionButton(_ sender: Any) {
-        outtletText.text = "You are a genius "
+    @IBAction func actionoutletButton(_ sender: Any) {
+        outletText.text = "You are a genius "
     }
+   
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
