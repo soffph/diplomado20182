@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		9BC6793B2052172000000C60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC6793A2052172000000C60 /* AppDelegate.swift */; };
-		9BC6793D2052172000000C60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC6793C2052172000000C60 /* ViewController.swift */; };
 		9BC679402052172000000C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6793E2052172000000C60 /* Main.storyboard */; };
 		9BC679422052172000000C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BC679412052172000000C60 /* Assets.xcassets */; };
 		9BC679452052172000000C60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC679432052172000000C60 /* LaunchScreen.storyboard */; };
 		9BC679502052172000000C60 /* WorldTroterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC6794F2052172000000C60 /* WorldTroterTests.swift */; };
 		9BC6795B2052172000000C60 /* WorldTroterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC6795A2052172000000C60 /* WorldTroterUITests.swift */; };
+		9BD6C68E205B12F100E1DEAA /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6C68D205B12F100E1DEAA /* ConversionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		9BC679372052172000000C60 /* WorldTroter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTroter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BC6793A2052172000000C60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BC6793C2052172000000C60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9BC6793F2052172000000C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BC679412052172000000C60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BC679442052172000000C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		9BC679562052172000000C60 /* WorldTroterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTroterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BC6795A2052172000000C60 /* WorldTroterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTroterUITests.swift; sourceTree = "<group>"; };
 		9BC6795C2052172000000C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD6C68D205B12F100E1DEAA /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				9BC6793A2052172000000C60 /* AppDelegate.swift */,
-				9BC6793C2052172000000C60 /* ViewController.swift */,
 				9BC6793E2052172000000C60 /* Main.storyboard */,
 				9BC679412052172000000C60 /* Assets.xcassets */,
 				9BC679432052172000000C60 /* LaunchScreen.storyboard */,
 				9BC679462052172000000C60 /* Info.plist */,
+				9BD6C68D205B12F100E1DEAA /* ConversionViewController.swift */,
 			);
 			path = WorldTroter;
 			sourceTree = "<group>";
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BC6793D2052172000000C60 /* ViewController.swift in Sources */,
+				9BD6C68E205B12F100E1DEAA /* ConversionViewController.swift in Sources */,
 				9BC6793B2052172000000C60 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
