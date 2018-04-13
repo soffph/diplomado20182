@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		910B1073207850B500D74D02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B1072207850B500D74D02 /* AppDelegate.swift */; };
+		910B1075207850B500D74D02 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B1074207850B500D74D02 /* MasterViewController.swift */; };
+		910B1077207850B500D74D02 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B1076207850B500D74D02 /* DetailViewController.swift */; };
+		910B107A207850B500D74D02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910B1078207850B500D74D02 /* Main.storyboard */; };
+		910B107C207850B500D74D02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 910B107B207850B500D74D02 /* Assets.xcassets */; };
+		910B107F207850B500D74D02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910B107D207850B500D74D02 /* LaunchScreen.storyboard */; };
+		910B108A207850B500D74D02 /* PlasticFishesGoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B1089207850B500D74D02 /* PlasticFishesGoodTests.swift */; };
+		910B1095207850B500D74D02 /* PlasticFishesGoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B1094207850B500D74D02 /* PlasticFishesGoodUITests.swift */; };
+		910B10A3207850F100D74D02 /* fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B10A2207850F100D74D02 /* fish.swift */; };
+		910B10A52078517B00D74D02 /* FishService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B10A42078517B00D74D02 /* FishService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		910B1086207850B500D74D02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 910B1067207850B500D74D02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 910B106E207850B500D74D02;
+			remoteInfo = PlasticFishesGood;
+		};
+		910B1091207850B500D74D02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 910B1067207850B500D74D02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 910B106E207850B500D74D02;
+			remoteInfo = PlasticFishesGood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		910B106F207850B500D74D02 /* PlasticFishesGood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlasticFishesGood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		910B1072207850B500D74D02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		910B1074207850B500D74D02 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		910B1076207850B500D74D02 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		910B1079207850B500D74D02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		910B107B207850B500D74D02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		910B107E207850B500D74D02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		910B1080207850B500D74D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		910B1085207850B500D74D02 /* PlasticFishesGoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlasticFishesGoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		910B1089207850B500D74D02 /* PlasticFishesGoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlasticFishesGoodTests.swift; sourceTree = "<group>"; };
+		910B108B207850B500D74D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		910B1090207850B500D74D02 /* PlasticFishesGoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlasticFishesGoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		910B1094207850B500D74D02 /* PlasticFishesGoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlasticFishesGoodUITests.swift; sourceTree = "<group>"; };
+		910B1096207850B500D74D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		910B10A2207850F100D74D02 /* fish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fish.swift; sourceTree = "<group>"; };
+		910B10A42078517B00D74D02 /* FishService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		910B106C207850B500D74D02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910B1082207850B500D74D02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910B108D207850B500D74D02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		910B1066207850B500D74D02 = {
+			isa = PBXGroup;
+			children = (
+				910B1071207850B500D74D02 /* PlasticFishesGood */,
+				910B1088207850B500D74D02 /* PlasticFishesGoodTests */,
+				910B1093207850B500D74D02 /* PlasticFishesGoodUITests */,
+				910B1070207850B500D74D02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		910B1070207850B500D74D02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				910B106F207850B500D74D02 /* PlasticFishesGood.app */,
+				910B1085207850B500D74D02 /* PlasticFishesGoodTests.xctest */,
+				910B1090207850B500D74D02 /* PlasticFishesGoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		910B1071207850B500D74D02 /* PlasticFishesGood */ = {
+			isa = PBXGroup;
+			children = (
+				910B1072207850B500D74D02 /* AppDelegate.swift */,
+				910B1074207850B500D74D02 /* MasterViewController.swift */,
+				910B1076207850B500D74D02 /* DetailViewController.swift */,
+				910B1078207850B500D74D02 /* Main.storyboard */,
+				910B107B207850B500D74D02 /* Assets.xcassets */,
+				910B107D207850B500D74D02 /* LaunchScreen.storyboard */,
+				910B1080207850B500D74D02 /* Info.plist */,
+				910B10A2207850F100D74D02 /* fish.swift */,
+				910B10A42078517B00D74D02 /* FishService.swift */,
+			);
+			path = PlasticFishesGood;
+			sourceTree = "<group>";
+		};
+		910B1088207850B500D74D02 /* PlasticFishesGoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				910B1089207850B500D74D02 /* PlasticFishesGoodTests.swift */,
+				910B108B207850B500D74D02 /* Info.plist */,
+			);
+			path = PlasticFishesGoodTests;
+			sourceTree = "<group>";
+		};
+		910B1093207850B500D74D02 /* PlasticFishesGoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				910B1094207850B500D74D02 /* PlasticFishesGoodUITests.swift */,
+				910B1096207850B500D74D02 /* Info.plist */,
+			);
+			path = PlasticFishesGoodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		910B106E207850B500D74D02 /* PlasticFishesGood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 910B1099207850B500D74D02 /* Build configuration list for PBXNativeTarget "PlasticFishesGood" */;
+			buildPhases = (
+				910B106B207850B500D74D02 /* Sources */,
+				910B106C207850B500D74D02 /* Frameworks */,
+				910B106D207850B500D74D02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlasticFishesGood;
+			productName = PlasticFishesGood;
+			productReference = 910B106F207850B500D74D02 /* PlasticFishesGood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		910B1084207850B500D74D02 /* PlasticFishesGoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 910B109C207850B500D74D02 /* Build configuration list for PBXNativeTarget "PlasticFishesGoodTests" */;
+			buildPhases = (
+				910B1081207850B500D74D02 /* Sources */,
+				910B1082207850B500D74D02 /* Frameworks */,
+				910B1083207850B500D74D02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				910B1087207850B500D74D02 /* PBXTargetDependency */,
+			);
+			name = PlasticFishesGoodTests;
+			productName = PlasticFishesGoodTests;
+			productReference = 910B1085207850B500D74D02 /* PlasticFishesGoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		910B108F207850B500D74D02 /* PlasticFishesGoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 910B109F207850B500D74D02 /* Build configuration list for PBXNativeTarget "PlasticFishesGoodUITests" */;
+			buildPhases = (
+				910B108C207850B500D74D02 /* Sources */,
+				910B108D207850B500D74D02 /* Frameworks */,
+				910B108E207850B500D74D02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				910B1092207850B500D74D02 /* PBXTargetDependency */,
+			);
+			name = PlasticFishesGoodUITests;
+			productName = PlasticFishesGoodUITests;
+			productReference = 910B1090207850B500D74D02 /* PlasticFishesGoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		910B1067207850B500D74D02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = d182_sofia_d;
+				TargetAttributes = {
+					910B106E207850B500D74D02 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					910B1084207850B500D74D02 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 910B106E207850B500D74D02;
+					};
+					910B108F207850B500D74D02 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 910B106E207850B500D74D02;
+					};
+				};
+			};
+			buildConfigurationList = 910B106A207850B500D74D02 /* Build configuration list for PBXProject "PlasticFishesGood" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 910B1066207850B500D74D02;
+			productRefGroup = 910B1070207850B500D74D02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				910B106E207850B500D74D02 /* PlasticFishesGood */,
+				910B1084207850B500D74D02 /* PlasticFishesGoodTests */,
+				910B108F207850B500D74D02 /* PlasticFishesGoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		910B106D207850B500D74D02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910B107F207850B500D74D02 /* LaunchScreen.storyboard in Resources */,
+				910B107C207850B500D74D02 /* Assets.xcassets in Resources */,
+				910B107A207850B500D74D02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910B1083207850B500D74D02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910B108E207850B500D74D02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		910B106B207850B500D74D02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910B1077207850B500D74D02 /* DetailViewController.swift in Sources */,
+				910B1075207850B500D74D02 /* MasterViewController.swift in Sources */,
+				910B1073207850B500D74D02 /* AppDelegate.swift in Sources */,
+				910B10A3207850F100D74D02 /* fish.swift in Sources */,
+				910B10A52078517B00D74D02 /* FishService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910B1081207850B500D74D02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910B108A207850B500D74D02 /* PlasticFishesGoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910B108C207850B500D74D02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910B1095207850B500D74D02 /* PlasticFishesGoodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		910B1087207850B500D74D02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 910B106E207850B500D74D02 /* PlasticFishesGood */;
+			targetProxy = 910B1086207850B500D74D02 /* PBXContainerItemProxy */;
+		};
+		910B1092207850B500D74D02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 910B106E207850B500D74D02 /* PlasticFishesGood */;
+			targetProxy = 910B1091207850B500D74D02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		910B1078207850B500D74D02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				910B1079207850B500D74D02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		910B107D207850B500D74D02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				910B107E207850B500D74D02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		910B1097207850B500D74D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		910B1098207850B500D74D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		910B109A207850B500D74D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlasticFishesGood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soffph.PlasticFishesGood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		910B109B207850B500D74D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlasticFishesGood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soffph.PlasticFishesGood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		910B109D207850B500D74D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlasticFishesGoodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soffph.PlasticFishesGoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlasticFishesGood.app/PlasticFishesGood";
+			};
+			name = Debug;
+		};
+		910B109E207850B500D74D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlasticFishesGoodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soffph.PlasticFishesGoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlasticFishesGood.app/PlasticFishesGood";
+			};
+			name = Release;
+		};
+		910B10A0207850B500D74D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlasticFishesGoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soffph.PlasticFishesGoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlasticFishesGood;
+			};
+			name = Debug;
+		};
+		910B10A1207850B500D74D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlasticFishesGoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soffph.PlasticFishesGoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlasticFishesGood;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		910B106A207850B500D74D02 /* Build configuration list for PBXProject "PlasticFishesGood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910B1097207850B500D74D02 /* Debug */,
+				910B1098207850B500D74D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		910B1099207850B500D74D02 /* Build configuration list for PBXNativeTarget "PlasticFishesGood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910B109A207850B500D74D02 /* Debug */,
+				910B109B207850B500D74D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		910B109C207850B500D74D02 /* Build configuration list for PBXNativeTarget "PlasticFishesGoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910B109D207850B500D74D02 /* Debug */,
+				910B109E207850B500D74D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		910B109F207850B500D74D02 /* Build configuration list for PBXNativeTarget "PlasticFishesGoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910B10A0207850B500D74D02 /* Debug */,
+				910B10A1207850B500D74D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 910B1067207850B500D74D02 /* Project object */;
+}
