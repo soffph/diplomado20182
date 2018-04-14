@@ -71,6 +71,34 @@ EOF asi como CORE DATA -> permite guradar en binario directamente
                             Todo eso lo maneja COREDATA con NSManagedObjectContext (antes su nombre: NSEditingContext)
     El editingcontext esta guradando un grafo de las relaciones y de los objetos
     Lo mismo que con el interface builder 
+    (Buscar videos de las demo que hace steve jobs del interface builder) 
+    
+    Guardarlo en binario (rapidez) 
+    el problema es que debo leer todo (no puedo leer pedacitos) 
+    Ej. debes subir todos a ram para poder cambiar solo algo y luego volverlo a subir 
+            [binario]
+            [xlm]
+            [sqlite] -> si me permite leer solo un pedacito!! Guarda solo un pedacio
+            si el grafo de objetos es pequeño pues si guradar en binario 
+            sino usar sqlite
+            NO ES ORM ( no se ve bonito no esta pensado para mapearlo bonito a tablas sino para guardarlo mas rápido)
+    
+    El editing context (NSManagedObjetContext) -> es al que le piden las cosas 
+                                                  pero se ayuda de otros objetos NSPersistentStoreCoordinator (el cordinador de almacenamiento) 
+                                                  Este mezcla sin importar de que base de datos o que forma 
+                                                  de almacenamiento de datos uso y los agurpa en el mismo
+                                                  (pero ya no tiene razón de ser porque se trajeron algo 
+                                                  que es complejo pero que en su antiguo contexto si se requerian pero  
+                                                  ya no son necesarias; ahorita en las aplicaciones que solo tienen una fuente de datos
+                                                  ya no lo ocupa) Ahora nuestros stores son webservices 
+                                                 
+                                                  
+     
+                                                  
+    
+   
+  
+
     
      
                 
