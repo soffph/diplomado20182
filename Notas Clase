@@ -1,3 +1,17 @@
+
+#UserDefaults
+    ES la interfaz para configuracion default del usuairo, donde se almacenan parejas de 'key-value' persistentes a traves de la aplicacion.
+    
+#Cuando usar
+-Cuando son configuraciones basicas del usuario
+-Cuando no importa que los datos esten expuestos
+-Cuando usamos primitivas de objective-c 
+
+
+
+
+
+
 UserDefaults -> para settings de usuarios 
 filemanager 
     documents
@@ -10,6 +24,11 @@ CoreData
     guide
     persistent store features
   https://github.com/iOSLabUNAM/diplomado/wiki/Persistencia-de-datos
+
+codable para guardar current user a disco 
+evitar que no se guarde el token (de manera transparente) NO UserSettings
+imagen guardar a cache
+key store value similar a lo que tiene redis pero usando archivable -> para el tocken 
 
 
 ----------------------------------------------------------------------------------------------------------------------
