@@ -3,3 +3,31 @@ Application Sandbox
 Conceptos
     Memoria virtual 
     
+let fileManager = FileManager.default
+let documentDirectories = fileManager.urls(
+                                            for: .documentDirectory,
+                                            in: .userDomainMask)
+let documentDirectory = DocumentDirectories.first!
+
+
+
+
+//READ WRITE BINARY DATA para guardar cosas en disco 
+
+init(contentsOf url: URL,
+    options: Data.ReadingOptions) throws //leer un archivo binario dentro de sandbox
+    
+func write(to url: URL,
+              options: Data.WritingOptions) throws //
+
+
+protocol NSCoding{
+    //When we want to load an object from disk
+    init? (coder aDecoder : NSCoder)
+   
+   //When we wanto to save an object to disk...
+   func encode(with aCoder : 
+   
+   binario -> nscoding / nskarchive -> realm -> core data
+}
+                                           
