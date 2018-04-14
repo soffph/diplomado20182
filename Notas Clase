@@ -28,6 +28,49 @@ protocol NSCoding{
    //When we wanto to save an object to disk...
    func encode(with aCoder : 
    
-   binario -> nscoding / nskarchive -> realm -> core data
+   
 }
                                            
+binario -> nscoding / nskarchive -> realm -> core data
+
+orm -> de um modelo entidad - relación a core data
+sqlite (es un manejador de bases de datos que soporta casi todo lo que tiene un oracle y todo por 450k de espacio) 
+        tiene la cobertura de pruebas más automatizada 
+CORE DATA (no es un orm) 
+          -NextSepManagedObjectContext
+                    |
+             persistentStoreCoordinator
+                    |
+                    v
+              NSPersistentStoreCoordinator. -----------------> NSManagedObjectModel
+                    |                                           |
+                    v                                           v
+              
+              sqliete persisten store                          nsentitydescription
+              
+              
+          -EOF enterprised object framework 
+          -ES un manejador de base de datos orientado a objetos en memoria
+
+Los nibs son objetos graficos (serializo porque me importa su persistencia)
+    eof es el equivalente de los storyboards pero de los objetos de negocio
+    objetos de negocio (casa, perro, etc) 
+    eof puede construir objetos de negocio en memoria y me lo guarda así 
+    si alguno hace referencia a otro tambien guarda esta relacion pero no esta haciendo ningun mapeo
+    (persistir en disco y leer de disco) 
+En core data puedo tener algo muy complejo 
+EOF asi como CORE DATA -> permite guradar en binario directamente 
+                          toma todos los elementos y los va a serializar 
+     
+     Ejemplo de objeto: 
+     Nombre     }           Core data lleva un registro de los cambios 
+     Cantidad.   >------    (un arbol) Todos estos cambios core data los va cambiando
+     ...        }           muy similar a un control de versiones
+                            te permite hacer cambios y volver a las versiones anteriores
+                            soporta UNDO y REDO
+                            Todo eso lo maneja COREDATA con NSManagedObjectContext (antes su nombre: NSEditingContext)
+    El editingcontext esta guradando un grafo de las relaciones y de los objetos
+    Lo mismo que con el interface builder 
+    
+     
+                
