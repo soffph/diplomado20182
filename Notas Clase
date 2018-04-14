@@ -92,11 +92,15 @@ EOF asi como CORE DATA -> permite guradar en binario directamente
                                                   ya no son necesarias; ahorita en las aplicaciones que solo tienen una fuente de datos
                                                   ya no lo ocupa) Ahora nuestros stores son webservices 
                                                  
-                                                  
-     
-                                                  
-    
-   
+REALM   -> Sí esta pensado como un orm y cumplir las caracteristicas de activedirectory
+           
+mas facil -> mas facil usar nscoding y no meter dependencias de terceros ni nada 
+
+NSPersistentContainer
+
+Aquí estuvieron Sergio y Jorge =)
+ 
+
   
 
     
