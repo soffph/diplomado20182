@@ -1,3 +1,24 @@
+UserDefaults -> para settings de usuarios 
+filemanager 
+    documents
+    cache 
+    temporal
+NSCache
+Keychain -> todos los certificados, los logins etc (llaves) certificados de seguridad , contraseñas de segiridad, lo guarda cifrado 
+CoreData
+    guide
+    persistent store features
+  https://github.com/iOSLabUNAM/diplomado/wiki
+
+
+
+
+
+
+
+
+
+
 Application Sandbox
 
 Conceptos
