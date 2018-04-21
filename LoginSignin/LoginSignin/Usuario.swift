@@ -10,4 +10,5 @@ import Foundation
 struct Usuario: Decodable{
     let name: String
     let email: String
+    
     }
