@@ -1,5 +1,144 @@
+
+#UserDefaults
+    ES la interfaz para configuracion default del usuairo, donde se almacenan parejas de 'key-value' persistentes a traves de la aplicacion.
+    
+#Cuando usar
+-Cuando son configuraciones basicas del usuario
+-Cuando no importa que los datos esten expuestos
+-Cuando usamos primitivas de objective-c 
+
+
+
+
+
+
+UserDefaults -> para settings de usuarios 
+filemanager 
+    documents
+    cache 
+    temporal
+NSCache
+Keychain -> todos los certificados, los logins etc (llaves) certificados de seguridad,
+            contraseñas de segiridad, lo guarda cifrado 
+CoreData
+    guide
+    persistent store features
+  https://github.com/iOSLabUNAM/diplomado/wiki/Persistencia-de-datos
+
+codable para guardar current user a disco 
+evitar que no se guarde el token (de manera transparente) NO UserSettings
+imagen guardar a cache
+key store value similar a lo que tiene redis pero usando archivable -> para el tocken 
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+
 Application Sandbox
 
 Conceptos
     Memoria virtual 
     
+let fileManager = FileManager.default
+let documentDirectories = fileManager.urls(
+                                            for: .documentDirectory,
+                                            in: .userDomainMask)
+let documentDirectory = DocumentDirectories.first!
+
+
+
+
+//READ WRITE BINARY DATA para guardar cosas en disco 
+
+init(contentsOf url: URL,
+    options: Data.ReadingOptions) throws //leer un archivo binario dentro de sandbox
+    
+func write(to url: URL,
+              options: Data.WritingOptions) throws //
+
+
+protocol NSCoding{
+    //When we want to load an object from disk
+    init? (coder aDecoder : NSCoder)
+   
+   //When we wanto to save an object to disk...
+   func encode(with aCoder : 
+   
+   
+}
+                                           
+binario -> nscoding / nskarchive -> realm -> core data
+
+orm -> de um modelo entidad - relación a core data
+sqlite (es un manejador de bases de datos que soporta casi todo lo que tiene un oracle y todo por 450k de espacio) 
+        tiene la cobertura de pruebas más automatizada 
+CORE DATA (no es un orm) 
+          -NextSepManagedObjectContext
+                    |
+             persistentStoreCoordinator
+                    |
+                    v
+              NSPersistentStoreCoordinator. -----------------> NSManagedObjectModel
+                    |                                           |
+                    v                                           v
+              
+              sqliete persisten store                          nsentitydescription
+              
+              
+          -EOF enterprised object framework 
+          -ES un manejador de base de datos orientado a objetos en memoria
+
+Los nibs son objetos graficos (serializo porque me importa su persistencia)
+    eof es el equivalente de los storyboards pero de los objetos de negocio
+    objetos de negocio (casa, perro, etc) 
+    eof puede construir objetos de negocio en memoria y me lo guarda así 
+    si alguno hace referencia a otro tambien guarda esta relacion pero no esta haciendo ningun mapeo
+    (persistir en disco y leer de disco) 
+En core data puedo tener algo muy complejo 
+EOF asi como CORE DATA -> permite guradar en binario directamente 
+                          toma todos los elementos y los va a serializar 
+     
+     Ejemplo de objeto: 
+     Nombre     }           Core data lleva un registro de los cambios 
+     Cantidad.   >------    (un arbol) Todos estos cambios core data los va cambiando
+     ...        }           muy similar a un control de versiones
+                            te permite hacer cambios y volver a las versiones anteriores
+                            soporta UNDO y REDO
+                            Todo eso lo maneja COREDATA con NSManagedObjectContext (antes su nombre: NSEditingContext)
+    El editingcontext esta guradando un grafo de las relaciones y de los objetos
+    Lo mismo que con el interface builder 
+    (Buscar videos de las demo que hace steve jobs del interface builder) 
+    
+    Guardarlo en binario (rapidez) 
+    el problema es que debo leer todo (no puedo leer pedacitos) 
+    Ej. debes subir todos a ram para poder cambiar solo algo y luego volverlo a subir 
+            [binario]
+            [xlm]
+            [sqlite] -> si me permite leer solo un pedacito!! Guarda solo un pedacio
+            si el grafo de objetos es pequeño pues si guradar en binario 
+            sino usar sqlite
+            NO ES ORM ( no se ve bonito no esta pensado para mapearlo bonito a tablas sino para guardarlo mas rápido)
+    
+    El editing context (NSManagedObjetContext) -> es al que le piden las cosas 
+                                                  pero se ayuda de otros objetos NSPersistentStoreCoordinator (el cordinador de almacenamiento) 
+                                                  Este mezcla sin importar de que base de datos o que forma 
+                                                  de almacenamiento de datos uso y los agurpa en el mismo
+                                                  (pero ya no tiene razón de ser porque se trajeron algo 
+                                                  que es complejo pero que en su antiguo contexto si se requerian pero  
+                                                  ya no son necesarias; ahorita en las aplicaciones que solo tienen una fuente de datos
+                                                  ya no lo ocupa) Ahora nuestros stores son webservices 
+                                                 
+REALM   -> Sí esta pensado como un orm y cumplir las caracteristicas de activedirectory
+           
+mas facil -> mas facil usar nscoding y no meter dependencias de terceros ni nada 
+
+NSPersistentContainer
+
+Aquí estuvieron Sergio y Jorge =)
+ 
+
+  
+
+    
+     
+                
