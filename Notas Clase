@@ -1,4 +1,35 @@
 
+"Debugging" 27 abril 2018
+
+[---------- Why no usar printf? ----------]
+
+Issues: 
+
+1) Se requiere recompliar 
+    Gasta tiempo
+2) Modificaciones al codigo fuente
+   Intrusivo 
+   Cambio en archivos que no tendría que haber cambios
+   Se te olvida borrarlos 
+   Si se arreglaba en una linea cuando hacen el commit suben 30 líneas (commits de archivos que no modificamos realmente) 
+   El commit debería ser solo de lo que se cambio 
+   Cherry pit (solo subir el cambio que se quiere implementar)
+3) Pasivos
+    Imprimes cosas que no son 
+    Vuelves a compilar 
+4) El print es síncrono y por lo tanto si tarda en compilacion aprox 1ms
+    
+compilar el codigo 
+        -> cambios en el codigo intrusivos 
+        -> pasivos
+        
+[---------- Debuggers ----------]
+        
+lldb: 
+    
+
+
+//--------------------------------------------------------------------------------------------
 #UserDefaults
     ES la interfaz para configuracion default del usuairo, donde se almacenan parejas de 'key-value' persistentes a traves de la aplicacion.
     
