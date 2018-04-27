@@ -1,5 +1,5 @@
 
-"Debugging" 27 abril 2018
+"Debugging"  y crashes 27 abril 2018
 
 [---------- Why no usar printf? ----------]
 
@@ -23,7 +23,7 @@ compilar el codigo
         -> cambios en el codigo intrusivos 
         -> pasivos
         
-[---------- Debuggers ----------]
+[---------- Debuggers  ----------]
         
 lldb: 
     * stack trace (foto del stack parte del proceso -> muestra la secuencia de ejecucion del programa) 
@@ -32,7 +32,8 @@ lldb:
     lldb comandos
     po (print object)
     p (print que muchas veces da una mejor descripcion visual
-    
+
+[---------- Breakpoints ----------]
 El break point tiene un menu (posicional) el normalito que usamos en la consola
     
     Reveal in breakpoint Navigation
@@ -50,8 +51,25 @@ Breakpoints simbolicos
      
      -[UIApplication sendAction:to:from:forEvent:]
      cada ves que se ejecute un evento manda el nombre del viewcontroller
+     
 Breakpoints de excepciones
-   
+
+[---------- Reusable breakpoints ----------]
+   El breakpoint es local no se guarda en el proyecto 
+   Compartir los breakpoints
+                           -share breakpoint
+                           -son independiente del codigo fuente
+                           -compartir los logs 
+  
+[---------- Crashes ----------]
+    -watchdog (timeouts) 
+        ej. cuando arranca la app el so cuena cuanto tiempo se tarda en que se levante si se tarda mas la mata 
+    -usuario termina la app 
+    -poca memoria
+    -acceso invalido a memoria
+    -envio de mensaje a un objeto liberado
+    TARDES60
+    
 //--------------------------------------------------------------------------------------------
 #UserDefaults
     ES la interfaz para configuracion default del usuairo, donde se almacenan parejas de 'key-value' persistentes a traves de la aplicacion.
