@@ -14,7 +14,7 @@ Issues:
    Si se arreglaba en una linea cuando hacen el commit suben 30 líneas (commits de archivos que no modificamos realmente) 
    El commit debería ser solo de lo que se cambio 
    Cherry pit (solo subir el cambio que se quiere implementar)
-3) Pasivos
+3) Pasivos (son estaticos)
     Imprimes cosas que no son 
     Vuelves a compilar 
 4) El print es síncrono y por lo tanto si tarda en compilacion aprox 1ms
@@ -26,8 +26,25 @@ compilar el codigo
 [---------- Debuggers ----------]
         
 lldb: 
+    * stack trace (foto del stack parte del proceso -> muestra la secuencia de ejecucion del programa) 
+    * primer funcion que se ejecuta START
     
-
+    lldb comandos
+    po (print object)
+    p (print que muchas veces da una mejor descripcion visual
+    
+El break point tiene un menu (posicional) el normalito que usamos en la consola
+    
+    Reveal in breakpoint Navigation
+        lista de breakpoints de todo el proyecto 
+    - Condition ej; mensaje > 2
+    - Ignore: (si se cumple esta condicion ignorala tantas veces; no es necesario que tenga una condicion) 
+    
+Breakpoints simbolicos
+    
+    
+    
+Breakpoints de excepciones
 
 //--------------------------------------------------------------------------------------------
 #UserDefaults
