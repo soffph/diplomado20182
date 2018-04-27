@@ -42,10 +42,16 @@ El break point tiene un menu (posicional) el normalito que usamos en la consola
     
 Breakpoints simbolicos
     
-    
-    
+    -[UIViewController initWithNibName:bundle:]
+    me imprimio el nombre del view controller en el que se ejecutó con el breakpoint 
+    -[UIViewController initWithCoder:]
+    Ambos se ejecutan dependiendo como se creo el view controller 
+    uno es para cuando se crea desde el storyboard o se crea desde codigo 
+     
+     -[UIApplication sendAction:to:from:forEvent:]
+     cada ves que se ejecute un evento manda el nombre del viewcontroller
 Breakpoints de excepciones
-
+   
 //--------------------------------------------------------------------------------------------
 #UserDefaults
     ES la interfaz para configuracion default del usuairo, donde se almacenan parejas de 'key-value' persistentes a traves de la aplicacion.
