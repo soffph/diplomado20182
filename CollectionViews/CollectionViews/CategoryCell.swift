@@ -79,7 +79,7 @@ class CategoryCell: UICollectionViewCell, UICollectionViewDelegateFlowLayout, UI
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: albumCellId, for: indexPath)
         cell.backgroundColor = UIColor.white
-        cell.album = albumCategory?.albums![indexPath.item]
+        //cell.album = albumCategory?.albums![indexPath.item]
         // Configure the cell
         return cell
     }
