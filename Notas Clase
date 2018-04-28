@@ -1,4 +1,8 @@
 
+
+test failure breakpoint 
+    quiero que pauses la ejecucion de la ejecucion de las pruebas cuando una prueba falla
+
 "Debugging"  y crashes 27 abril 2018
 
 [---------- Why no usar printf? ----------]
