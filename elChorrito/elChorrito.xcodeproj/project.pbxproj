@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		595F55EEB80244CC535B40CC /* Pods_elChorrito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D36141BF94EACED5823F4DB /* Pods_elChorrito.framework */; };
+		91E44DB3209E0CB5004FDA8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E44DB2209E0CB5004FDA8D /* AppDelegate.swift */; };
+		91E44DB5209E0CB5004FDA8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E44DB4209E0CB5004FDA8D /* ViewController.swift */; };
+		91E44DB8209E0CB5004FDA8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E44DB6209E0CB5004FDA8D /* Main.storyboard */; };
+		91E44DBA209E0CB6004FDA8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E44DB9209E0CB6004FDA8D /* Assets.xcassets */; };
+		91E44DBD209E0CB6004FDA8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E44DBB209E0CB6004FDA8D /* LaunchScreen.storyboard */; };
+		91E44DC8209E0CB6004FDA8D /* elChorritoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E44DC7209E0CB6004FDA8D /* elChorritoTests.swift */; };
+		91E44DD3209E0CB6004FDA8D /* elChorritoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E44DD2209E0CB6004FDA8D /* elChorritoUITests.swift */; };
+		91E44DE1209E23DC004FDA8D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91E44DE0209E23DC004FDA8D /* GoogleService-Info.plist */; };
+		91E44DE3209E2FA4004FDA8D /* LoginUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E44DE2209E2FA4004FDA8D /* LoginUIViewController.swift */; };
+		E38F752CD2F112E3C59AA67D /* Pods_elChorritoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9453AF90EFAB5F4505C18DFF /* Pods_elChorritoUITests.framework */; };
+		ED4D3100730D344407621C2D /* Pods_elChorritoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3862BA69CFD0F6E1C62E97B /* Pods_elChorritoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91E44DC4209E0CB6004FDA8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91E44DA7209E0CB5004FDA8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91E44DAE209E0CB5004FDA8D;
+			remoteInfo = elChorrito;
+		};
+		91E44DCF209E0CB6004FDA8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91E44DA7209E0CB5004FDA8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91E44DAE209E0CB5004FDA8D;
+			remoteInfo = elChorrito;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A674BC8E651F79D039C55E5 /* Pods-elChorritoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-elChorritoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-elChorritoTests/Pods-elChorritoTests.release.xcconfig"; sourceTree = "<group>"; };
+		4D36141BF94EACED5823F4DB /* Pods_elChorrito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_elChorrito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A6DB1B57925A631A59102BA /* Pods-elChorrito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-elChorrito.release.xcconfig"; path = "Pods/Target Support Files/Pods-elChorrito/Pods-elChorrito.release.xcconfig"; sourceTree = "<group>"; };
+		750A08BB52EF0951C1DA250C /* Pods-elChorrito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-elChorrito.debug.xcconfig"; path = "Pods/Target Support Files/Pods-elChorrito/Pods-elChorrito.debug.xcconfig"; sourceTree = "<group>"; };
+		793CB253DC09FAE4F5D59382 /* Pods-elChorritoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-elChorritoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-elChorritoUITests/Pods-elChorritoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8D64044B580D64E63E737F79 /* Pods-elChorritoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-elChorritoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-elChorritoTests/Pods-elChorritoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		91E44DAF209E0CB5004FDA8D /* elChorrito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = elChorrito.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E44DB2209E0CB5004FDA8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91E44DB4209E0CB5004FDA8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91E44DB7209E0CB5004FDA8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91E44DB9209E0CB6004FDA8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91E44DBC209E0CB6004FDA8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91E44DBE209E0CB6004FDA8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91E44DC3209E0CB6004FDA8D /* elChorritoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = elChorritoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E44DC7209E0CB6004FDA8D /* elChorritoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = elChorritoTests.swift; sourceTree = "<group>"; };
+		91E44DC9209E0CB6004FDA8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91E44DCE209E0CB6004FDA8D /* elChorritoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = elChorritoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E44DD2209E0CB6004FDA8D /* elChorritoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = elChorritoUITests.swift; sourceTree = "<group>"; };
+		91E44DD4209E0CB6004FDA8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91E44DE0209E23DC004FDA8D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		91E44DE2209E2FA4004FDA8D /* LoginUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUIViewController.swift; sourceTree = "<group>"; };
+		9453AF90EFAB5F4505C18DFF /* Pods_elChorritoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_elChorritoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3862BA69CFD0F6E1C62E97B /* Pods_elChorritoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_elChorritoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F1542284F53C325B1EE78D /* Pods-elChorritoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-elChorritoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-elChorritoUITests/Pods-elChorritoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91E44DAC209E0CB5004FDA8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				595F55EEB80244CC535B40CC /* Pods_elChorrito.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E44DC0209E0CB6004FDA8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4D3100730D344407621C2D /* Pods_elChorritoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E44DCB209E0CB6004FDA8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38F752CD2F112E3C59AA67D /* Pods_elChorritoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91E44DA6209E0CB5004FDA8D = {
+			isa = PBXGroup;
+			children = (
+				91E44DB1209E0CB5004FDA8D /* elChorrito */,
+				91E44DC6209E0CB6004FDA8D /* elChorritoTests */,
+				91E44DD1209E0CB6004FDA8D /* elChorritoUITests */,
+				91E44DB0209E0CB5004FDA8D /* Products */,
+				B963929638F3166DE3FE03D4 /* Pods */,
+				9737BE1BBAA0AAC061F50770 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		91E44DB0209E0CB5004FDA8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91E44DAF209E0CB5004FDA8D /* elChorrito.app */,
+				91E44DC3209E0CB6004FDA8D /* elChorritoTests.xctest */,
+				91E44DCE209E0CB6004FDA8D /* elChorritoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91E44DB1209E0CB5004FDA8D /* elChorrito */ = {
+			isa = PBXGroup;
+			children = (
+				91E44DB2209E0CB5004FDA8D /* AppDelegate.swift */,
+				91E44DB4209E0CB5004FDA8D /* ViewController.swift */,
+				91E44DB6209E0CB5004FDA8D /* Main.storyboard */,
+				91E44DB9209E0CB6004FDA8D /* Assets.xcassets */,
+				91E44DBB209E0CB6004FDA8D /* LaunchScreen.storyboard */,
+				91E44DBE209E0CB6004FDA8D /* Info.plist */,
+				91E44DE0209E23DC004FDA8D /* GoogleService-Info.plist */,
+				91E44DE2209E2FA4004FDA8D /* LoginUIViewController.swift */,
+			);
+			path = elChorrito;
+			sourceTree = "<group>";
+		};
+		91E44DC6209E0CB6004FDA8D /* elChorritoTests */ = {
+			isa = PBXGroup;
+			children = (
+				91E44DC7209E0CB6004FDA8D /* elChorritoTests.swift */,
+				91E44DC9209E0CB6004FDA8D /* Info.plist */,
+			);
+			path = elChorritoTests;
+			sourceTree = "<group>";
+		};
+		91E44DD1209E0CB6004FDA8D /* elChorritoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91E44DD2209E0CB6004FDA8D /* elChorritoUITests.swift */,
+				91E44DD4209E0CB6004FDA8D /* Info.plist */,
+			);
+			path = elChorritoUITests;
+			sourceTree = "<group>";
+		};
+		9737BE1BBAA0AAC061F50770 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D36141BF94EACED5823F4DB /* Pods_elChorrito.framework */,
+				D3862BA69CFD0F6E1C62E97B /* Pods_elChorritoTests.framework */,
+				9453AF90EFAB5F4505C18DFF /* Pods_elChorritoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B963929638F3166DE3FE03D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				750A08BB52EF0951C1DA250C /* Pods-elChorrito.debug.xcconfig */,
+				5A6DB1B57925A631A59102BA /* Pods-elChorrito.release.xcconfig */,
+				8D64044B580D64E63E737F79 /* Pods-elChorritoTests.debug.xcconfig */,
+				1A674BC8E651F79D039C55E5 /* Pods-elChorritoTests.release.xcconfig */,
+				F3F1542284F53C325B1EE78D /* Pods-elChorritoUITests.debug.xcconfig */,
+				793CB253DC09FAE4F5D59382 /* Pods-elChorritoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91E44DAE209E0CB5004FDA8D /* elChorrito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E44DD7209E0CB6004FDA8D /* Build configuration list for PBXNativeTarget "elChorrito" */;
+			buildPhases = (
+				455C16C8A96479364DE6FE34 /* [CP] Check Pods Manifest.lock */,
+				91E44DAB209E0CB5004FDA8D /* Sources */,
+				91E44DAC209E0CB5004FDA8D /* Frameworks */,
+				91E44DAD209E0CB5004FDA8D /* Resources */,
+				A2D0D133033C2ECF2D755165 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = elChorrito;
+			productName = elChorrito;
+			productReference = 91E44DAF209E0CB5004FDA8D /* elChorrito.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91E44DC2209E0CB6004FDA8D /* elChorritoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E44DDA209E0CB6004FDA8D /* Build configuration list for PBXNativeTarget "elChorritoTests" */;
+			buildPhases = (
+				6427D0DC6066B0259C8CF560 /* [CP] Check Pods Manifest.lock */,
+				91E44DBF209E0CB6004FDA8D /* Sources */,
+				91E44DC0209E0CB6004FDA8D /* Frameworks */,
+				91E44DC1209E0CB6004FDA8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91E44DC5209E0CB6004FDA8D /* PBXTargetDependency */,
+			);
+			name = elChorritoTests;
+			productName = elChorritoTests;
+			productReference = 91E44DC3209E0CB6004FDA8D /* elChorritoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91E44DCD209E0CB6004FDA8D /* elChorritoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E44DDD209E0CB6004FDA8D /* Build configuration list for PBXNativeTarget "elChorritoUITests" */;
+			buildPhases = (
+				B90AA6ABDF15F7FD82051F3D /* [CP] Check Pods Manifest.lock */,
+				91E44DCA209E0CB6004FDA8D /* Sources */,
+				91E44DCB209E0CB6004FDA8D /* Frameworks */,
+				91E44DCC209E0CB6004FDA8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91E44DD0209E0CB6004FDA8D /* PBXTargetDependency */,
+			);
+			name = elChorritoUITests;
+			productName = elChorritoUITests;
+			productReference = 91E44DCE209E0CB6004FDA8D /* elChorritoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91E44DA7209E0CB5004FDA8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = d182_sofia_d;
+				TargetAttributes = {
+					91E44DAE209E0CB5004FDA8D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					91E44DC2209E0CB6004FDA8D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 91E44DAE209E0CB5004FDA8D;
+					};
+					91E44DCD209E0CB6004FDA8D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 91E44DAE209E0CB5004FDA8D;
+					};
+				};
+			};
+			buildConfigurationList = 91E44DAA209E0CB5004FDA8D /* Build configuration list for PBXProject "elChorrito" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91E44DA6209E0CB5004FDA8D;
+			productRefGroup = 91E44DB0209E0CB5004FDA8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91E44DAE209E0CB5004FDA8D /* elChorrito */,
+				91E44DC2209E0CB6004FDA8D /* elChorritoTests */,
+				91E44DCD209E0CB6004FDA8D /* elChorritoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91E44DAD209E0CB5004FDA8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E44DBD209E0CB6004FDA8D /* LaunchScreen.storyboard in Resources */,
+				91E44DE1209E23DC004FDA8D /* GoogleService-Info.plist in Resources */,
+				91E44DBA209E0CB6004FDA8D /* Assets.xcassets in Resources */,
+				91E44DB8209E0CB5004FDA8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E44DC1209E0CB6004FDA8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E44DCC209E0CB6004FDA8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		455C16C8A96479364DE6FE34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-elChorrito-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6427D0DC6066B0259C8CF560 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-elChorritoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2D0D133033C2ECF2D755165 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-elChorrito/Pods-elChorrito-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-elChorrito/Pods-elChorrito-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B90AA6ABDF15F7FD82051F3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-elChorritoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91E44DAB209E0CB5004FDA8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E44DB5209E0CB5004FDA8D /* ViewController.swift in Sources */,
+				91E44DB3209E0CB5004FDA8D /* AppDelegate.swift in Sources */,
+				91E44DE3209E2FA4004FDA8D /* LoginUIViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E44DBF209E0CB6004FDA8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E44DC8209E0CB6004FDA8D /* elChorritoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E44DCA209E0CB6004FDA8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E44DD3209E0CB6004FDA8D /* elChorritoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91E44DC5209E0CB6004FDA8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91E44DAE209E0CB5004FDA8D /* elChorrito */;
+			targetProxy = 91E44DC4209E0CB6004FDA8D /* PBXContainerItemProxy */;
+		};
+		91E44DD0209E0CB6004FDA8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91E44DAE209E0CB5004FDA8D /* elChorrito */;
+			targetProxy = 91E44DCF209E0CB6004FDA8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91E44DB6209E0CB5004FDA8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91E44DB7209E0CB5004FDA8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91E44DBB209E0CB6004FDA8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91E44DBC209E0CB6004FDA8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91E44DD5209E0CB6004FDA8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91E44DD6209E0CB6004FDA8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91E44DD8209E0CB6004FDA8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 750A08BB52EF0951C1DA250C /* Pods-elChorrito.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = elChorrito/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soffph.elChorrito;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91E44DD9209E0CB6004FDA8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A6DB1B57925A631A59102BA /* Pods-elChorrito.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = elChorrito/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soffph.elChorrito;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91E44DDB209E0CB6004FDA8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D64044B580D64E63E737F79 /* Pods-elChorritoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = elChorritoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soffph.elChorritoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/elChorrito.app/elChorrito";
+			};
+			name = Debug;
+		};
+		91E44DDC209E0CB6004FDA8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A674BC8E651F79D039C55E5 /* Pods-elChorritoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = elChorritoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soffph.elChorritoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/elChorrito.app/elChorrito";
+			};
+			name = Release;
+		};
+		91E44DDE209E0CB6004FDA8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3F1542284F53C325B1EE78D /* Pods-elChorritoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = elChorritoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soffph.elChorritoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = elChorrito;
+			};
+			name = Debug;
+		};
+		91E44DDF209E0CB6004FDA8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 793CB253DC09FAE4F5D59382 /* Pods-elChorritoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = elChorritoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soffph.elChorritoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = elChorrito;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91E44DAA209E0CB5004FDA8D /* Build configuration list for PBXProject "elChorrito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E44DD5209E0CB6004FDA8D /* Debug */,
+				91E44DD6209E0CB6004FDA8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91E44DD7209E0CB6004FDA8D /* Build configuration list for PBXNativeTarget "elChorrito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E44DD8209E0CB6004FDA8D /* Debug */,
+				91E44DD9209E0CB6004FDA8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91E44DDA209E0CB6004FDA8D /* Build configuration list for PBXNativeTarget "elChorritoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E44DDB209E0CB6004FDA8D /* Debug */,
+				91E44DDC209E0CB6004FDA8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91E44DDD209E0CB6004FDA8D /* Build configuration list for PBXNativeTarget "elChorritoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E44DDE209E0CB6004FDA8D /* Debug */,
+				91E44DDF209E0CB6004FDA8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91E44DA7209E0CB5004FDA8D /* Project object */;
+}

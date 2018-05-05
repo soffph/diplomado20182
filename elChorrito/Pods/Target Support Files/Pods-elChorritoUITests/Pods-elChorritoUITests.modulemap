@@ -1,0 +1,6 @@
+framework module Pods_elChorritoUITests {
+  umbrella header "Pods-elChorritoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
