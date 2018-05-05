@@ -1,5 +1,20 @@
 
+Algoritmos de hash y generacion de números pseudoaleatrorios 
 
+-hash 
+    --entradas diferentes salidas diferentes
+    --no tiene descifrado
+    --sha-3
+    
+ cifrado
+    -llaves simetricas de la AES (sdes, rijndael)
+    -llaves asimetricas RSA 
+    
+ certificados 
+    -mecanismo para compartir llaves publicas 
+    -firma digital 
+        
+-------------------------------------------------------------------------------------------------------------
 test failure breakpoint 
     quiero que pauses la ejecucion de la ejecucion de las pruebas cuando una prueba falla
 
