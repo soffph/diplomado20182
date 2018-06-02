@@ -113,7 +113,7 @@ class ViewController: UIViewController {
         formSegmentedControll.bottomAnchor.constraint(equalTo: formContainerView.topAnchor, constant: -15 ).isActive = true
         formSegmentedControll.widthAnchor.constraint(equalTo: formContainerView.widthAnchor).isActive = true
         
-        formSegmentedControll.heightAnchor.constraint(equalToConstant: 60).isActive = true
+        formSegmentedControll.heightAnchor.constraint(equalToConstant: 40).isActive = true
         
     }
     
